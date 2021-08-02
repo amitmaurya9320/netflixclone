@@ -1,15 +1,14 @@
 # Netflix clone
 
-** MERN STACK APP**
+**MERN STACK APP**
 
-#### Summary
+#### Intro
 
-A fully functional netfix clone. Front end designed using ReactJS(Context).Backend is powered by express server and mongoDb as database. Email password based Authentication and JWT for authorization. Firebase store handles all the data. A separate admin panel to perform a CURD operation and visualise the user and movies/series statistic.
+A fully functional netfix clone. Front end styled using ReactJS(Context). Backend is powered by express server and mongoDb as database. Email password based authentication and JWT for authorization. Firebase store handles all the data. A separate admin panel to perform a CURD operation and visualise the user and movies/series statistic.
 
 #### Project Description
 
 1. Admin
-
    - A Admin panel to perform a CURD operation and visualise the statistic
    - Only admin can perform following operation
    - Operation
@@ -18,7 +17,6 @@ A fully functional netfix clone. Front end designed using ReactJS(Context).Backe
      3. Create/Update/DELETE the List(list of movies)
 
 2. Client
-
    - A Netflix clone
    - A authorzied user can access all pages
    - It contain following page
@@ -31,13 +29,9 @@ A fully functional netfix clone. Front end designed using ReactJS(Context).Backe
 3. Api
    - A api to handle route and perfrom CURD opertion on database
    - It has following route to handle CURD operation
-     1. Auth route
-        - To login and register the user
-     2. Users route
-        - Authorize user and admin can perform a CRUD operation.
-     3. Movies route and List route
-        - Admin can perform CURD operation
-        - Authorize user can perform READ operation
+     1. Auth route : To login and register the user
+     2. Users route : Authorize user and admin can perform a CRUD operation.
+     3. Movies route and List route : Admin can perform CURD operation and authorize user can perform READ operation
 
 #### Steps To Run in development mode
 
@@ -58,8 +52,16 @@ A fully functional netfix clone. Front end designed using ReactJS(Context).Backe
 
 1. Netflix HomePage
 
+   <img src = 'image/netflix_home_page.png'/>
+   
 2. Admin HomePage
 
+   <img src = 'image/admin_home_page2.png'/>
+   
 3. Admin MovieList
 
+   <img src = 'image/Admin_user_page.png'/>
+   
 4. Create New Movie
+
+   <img src = 'image/New_Movie.png'/>
